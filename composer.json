@@ -1,0 +1,20 @@
+{
+  "name": "snake/tlaravelcontainer",
+  "description": "test php di",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "snake",
+      "email": "164011252@qq.com"
+    }
+  ],
+  "require": {
+    "illuminate/container": "^5.2@dev"
+  },
+  "autoload":{
+    "psr-4":{
+      "":"src"
+    }
+  }
+}
